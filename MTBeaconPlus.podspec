@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.source_files = 'MTBeaconPlus/Classes/*.{h,m}'
   s.vendored_frameworks = 'MTBeaconPlus/Frameworks/*.{framework}'
 #  s.dependency = 'iOSDFULibrary'
-#  s.static_framework = true
-  s.public_header_files = 'MTBeaconPlus/Classes/*.h'
+  s.static_framework = true
+#  s.public_header_files = 'MTBeaconPlus/Classes/*.h'
 
   s.dependency 'iOSDFULibrary'
   s.dependency 'ZIPFoundation'
